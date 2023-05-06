@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "api-gateway": "npx @staticcms/proxy-server"
   },
   "dependencies": {
     "@algolia/client-search": "^4.17.0",
