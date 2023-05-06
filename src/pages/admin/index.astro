@@ -12,17 +12,21 @@
         config: {
             name: 'Static CMS',
             backend: {
+                //name: 'git-gateway',
                 name: 'github',
-                repo: 'Defkil/cheatsheet',
+                repo: 'defkil/sheatsheets',
+                site_domain: '237cff2f-9de5-48ae-a5b2-765362ab7d92'
             },
-            media_folder: '/static/media',
-            public_folder: '/media',
+            local_backend: true,
+            media_folder: '/public/media',
+            public_folder: '/public',
             collections: [
                 {
                     name: 'posts',
                     label: 'Posts',
-                    folder: 'content/docs/en',
+                    folder: 'src/content/docs/en',
                     create: true,
+                    slug: "{{slug}}",
                     fields: [
                         {
                             label: 'Title',
