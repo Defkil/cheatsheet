@@ -1,25 +1,54 @@
 ---
-title: "Introduction"
-description: "Docs intro"
+title: Willkommen bei Olis Cheatsheet!
+description: Olis Cheatsheet bietet kompakte Zusammenfassungen und Cheatsheets
+  zu verschiedenen Themen für Anfänger und Fortgeschrittene. Es gibt eine
+  Suchfunktion und verlinkte Ressourcen zur Vertiefung des Wissens. Feedback der
+  Nutzer ist willkommen.
 ---
+Olis Cheatsheet ist eine Webseite, die dir dabei hilft, Wissen schnell und effizient zu erlernen und nachzuschlagen. Hier findest du kompakte Zusammenfassungen und Cheatsheets zu einer Vielzahl von Themen, die sowohl für Anfänger als auch für Fortgeschrittene geeignet sind. Zusätzlich gibt es Links zu ausführlichen Artikeln und Ressourcen, um dein Wissen zu vertiefen. Hier ein Überblick über die wichtigsten Inhalte auf der Homepage:
 
-**Welcome to Astro!**
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
 
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
 
-## Getting Started
 
-To get started with this theme, check out the `README.md` in your new project directory. It provides documentation on how to use and customize this template for your own project. Keep the README around so that you can always refer back to it as you build.
+## Themenübersicht:
 
-Found a missing feature that you can't live without? Please suggest it [on our Discord](https://astro.build/chat) and even consider adding it yourself on GitHub! Astro is an open source project and contributions from developers like you are how we grow!
+Entdecke eine breite Auswahl an Themen, die von Programmiersprachen bis hin zu mathematischen Formeln reichen. In jeder Kategorie findest du Cheatsheets, kurze Erklärungen und Verlinkungen zu ausführlichen Artikeln.
 
-Good luck out there, Astronaut. 🧑‍🚀
+
+
+
+
+## Einführung in die Themen:
+
+Erhalte einen schnellen und unkomplizierten Einstieg in ein neues Thema durch kurze Einführungen und Erklärungen. Lerne die Grundlagen und entscheide, ob du tiefer in die Materie eintauchen möchtest.
+
+
+
+
+
+## Vertiefende Ressourcen:
+
+Für diejenigen, die ihr Wissen erweitern möchten, gibt es eine Auswahl an verlinkten Artikeln und Ressourcen, die umfassende Informationen zum gewählten Thema bieten. Erweitere dein Wissen und werde zum Experten in deinem Fachgebiet.
+
+
+
+
+
+## Suchfunktion:
+
+Nutze die Suchfunktion, um gezielt nach bestimmten Themen oder Cheatsheets zu suchen. So findest du schnell und einfach genau das, was du gerade benötigst.
+
+
+
+
+
+## Feedback und Anregungen:
+
+Da Olis Cheatsheet stetig wachsen und verbessern soll, ist dein Feedback und deine Anregungen sehr willkommen. Wenn du Vorschläge für neue Themen oder Cheatsheets hast, zögere nicht, Kontakt aufzunehmen.
+
+
+
+
+
+Viel Spaß beim Entdecken und Lernen auf Olis Cheatsheet!
