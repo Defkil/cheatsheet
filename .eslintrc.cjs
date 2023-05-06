@@ -20,6 +20,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-key': 'off',
     'react/prop-types': 'off',
+    '@typescript-eslint/triple-slash-reference': 'off',
   },
   settings: {
     react: {
