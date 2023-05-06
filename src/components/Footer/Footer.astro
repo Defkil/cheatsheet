@@ -1,13 +1,6 @@
----
-import AvatarList from './AvatarList.astro'
-type Props = {
-  path: string;
-};
-const { path } = Astro.props;
----
-
 <footer>
-  <AvatarList path={path}/>
+  <a href="https://1og.de/datenschutzerklaerung/" target="_blank" rel="noreferrer">Datenschutzerklärung</a>
+  <a href="https://1og.de/impressum/" target="_blank" rel="noreferrer">Impressum</a>
 </footer>
 
 <style>
@@ -15,5 +8,11 @@ const { path } = Astro.props;
     margin-top: auto;
     padding: 2rem;
     border-top: 3px solid var(--theme-divider);
+    text-align: right;
+  }
+  a {
+    color: var(--theme-text);
+    text-decoration: none;
+    margin-right: 1rem;
   }
 </style>
