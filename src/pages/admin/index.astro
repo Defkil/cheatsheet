@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@staticcms/app@^2.0.0/dist/main.css" />
+    <title>Content Manager</title>
+</head>
+<body>
+<script src="https://unpkg.com/@staticcms/app@^2.0.0/dist/static-cms-app.js" is:inline></script>
+<script is:inline>
+    window.CMS.init({
+        config: {
+            name: 'Static CMS',
+            backend: {
+                name: 'github',
+                repo: 'staticcms/staticcms.com',
+                branch: 'master',
+                base_url: 'https://api.github.com'
+            },
+            media_folder: '/static/media',
+            public_folder: '/media',
+            collections: [
+                {
+                    name: 'posts',
+                    label: 'Posts',
+                    folder: 'content/docs/en',
+                    create: true,
+                    fields: [
+                        {
+                            label: 'Title',
+                            name: 'title',
+                            widget: 'string'
+                        },
+                        {
+                            label: 'Description',
+                            name: 'description',
+                            widget: 'string',
+                        },
+                        {
+                            label: 'Body',
+                            name: 'body',
+                            widget: 'markdown'
+                        }
+                    ]
+                }
+            ]
+        }
+    });
+</script>
+</body>
+</html>
