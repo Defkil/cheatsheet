@@ -17,10 +17,6 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/withastro/astro/tree/main/examples/docs`;
-
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
-
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
 	indexName: 'XXXXXXXXXX',
