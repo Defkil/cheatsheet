@@ -1,21 +1,19 @@
 export const SITE = {
-	title: 'Documentation',
-	description: 'Your website description.',
-	defaultLanguage: 'en-us',
+	title: 'Olis Cheatsheet',
+	description: 'Olis CheatSheet ist ein öffentliches Github-Repo mit deutschsprachigen Cheat Sheets zu Programmierthemen. Es bietet Entwicklern eine schnelle Referenz zu häufig verwendeten Befehlen, Konzepten und Technologien.',
+	defaultLanguage: 'de',
 } as const;
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'https://github.com/withastro/astro/blob/main/.github/assets/banner.png?raw=true',
-		alt:
-			'astro logo on a starry expanse of space,' +
-			' with a purple saturn-like planet floating in the right foreground',
+		src: 'https://cs.1og.de/logo.svg',
+		alt: 'Olis Cheasheet'
 	},
-	twitter: 'astrodotbuild',
+	twitter: 'OliverGruettner',
 };
 
 export const KNOWN_LANGUAGES = {
-	English: 'en',
+	German: 'de',
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
@@ -35,12 +33,12 @@ export type Sidebar = Record<
 	Record<string, { text: string; link: string }[]>
 >;
 export const SIDEBAR: Sidebar = {
-	en: {
+	de: {
 		'Section Header': [
 			{ text: 'Introduction', link: 'en/introduction' },
 			{ text: 'Page 2', link: 'en/page-2' },
 			{ text: 'Page 3', link: 'en/page-3' },
 		],
 		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
-	},
+	}
 };
