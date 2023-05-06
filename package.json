@@ -19,6 +19,7 @@
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.3",
     "astro": "^2.4.1",
+    "astro-compress": "^1.1.42",
     "preact": "^10.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
