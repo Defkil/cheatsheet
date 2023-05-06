@@ -1,21 +1,22 @@
 ---
 type Props = {
-	size: number;
+  size: number;
 };
 const { size } = Astro.props;
 ---
 
 <img src="/logo.svg" alt="Logo"
-	 width={size}
-	 height={size}
-	 class="logo">
+     width={size}
+     height={size}
+     class="logo">
 
 <style>
-	.logo {
-		margin-left: 24px;
-		transition: transform 0.2s ease-in-out;
-	}
-	.logo:hover {
-		transform: rotate(360deg);
-	}
+  .logo {
+    margin-left: 24px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .logo:hover {
+    transform: rotate(360deg);
+  }
 </style>
