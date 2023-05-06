@@ -26,15 +26,15 @@ export const ALGOLIA = {
 
 export type Sidebar = Record<
 (typeof KNOWN_LANGUAGE_CODES)[number],
-Record<string, Array<{ text: string, link: string }>>
+Record<string, Array<{ text: string, link: string, external?: boolean }>>
 >
 export const SIDEBAR: Sidebar = {
   de: {
-    'Section Header': [
-      { text: 'Introduction', link: 'en/introduction' },
-      { text: 'Page 2', link: 'en/page-2' },
-      { text: 'Page 3', link: 'en/page-3' }
+    Infos: [
+      { text: 'Home', link: 'de/home' },
+      { text: 'Mein Blog', link: 'https://1og.de', external: true },
+      { text: 'Mein Github', link: 'https://github.com/Defkil', external: true }
     ],
-    'Another Section': [{ text: 'Page 4', link: 'en/page-4' }]
+    UML: []
   }
 }
