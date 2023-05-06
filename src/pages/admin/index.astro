@@ -12,10 +12,8 @@
         config: {
             name: 'Static CMS',
             backend: {
-                //name: 'git-gateway',
-                name: 'github',
+                name: 'git-gateway',
                 repo: 'defkil/sheatsheets',
-                site_domain: '237cff2f-9de5-48ae-a5b2-765362ab7d92'
             },
             local_backend: true,
             media_folder: '/public/media',
@@ -24,7 +22,7 @@
                 {
                     name: 'posts',
                     label: 'Posts',
-                    folder: 'src/content/docs/en',
+                    folder: 'src/content/docs/de',
                     create: true,
                     slug: "{{slug}}",
                     fields: [
