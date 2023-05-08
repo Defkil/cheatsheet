@@ -36,7 +36,8 @@ export const SIDEBAR: Sidebar = {
       { text: 'Mein Github', link: 'https://github.com/Defkil', external: true }
     ],
     UML: [
-      { text: 'Software Übersicht', link: 'de/uml/uml-software' }
+      { text: 'Software Übersicht', link: 'de/uml/uml-software' },
+      { text: 'Klassendiagramm', link: 'de/uml/klassendiagramm' }
     ]
   }
 }
