@@ -8,44 +8,54 @@
 <body>
 <script src="https://unpkg.com/@staticcms/app@^2.0.0/dist/static-cms-app.js" is:inline></script>
 <script is:inline>
-    window.CMS.init({
-      config: {
-        name: 'Static CMS',
-        backend: {
-          name: 'git-gateway',
-          repo: 'defkil/sheatsheets'
+  const pageFieldsDefault = [
+    {
+      label: 'Title',
+      name: 'title',
+      widget: 'string'
+    },
+    {
+      label: 'Description',
+      name: 'description',
+      widget: 'string'
+    },
+    {
+      label: 'Body',
+      name: 'body',
+      widget: 'markdown'
+    }
+  ]
+
+  window.CMS.init({
+    config: {
+      name: 'Static CMS',
+      backend: {
+        name: 'git-gateway',
+        repo: 'defkil/sheatsheets'
+      },
+      local_backend: true,
+      media_folder: '/public/media',
+      public_folder: '/public',
+      collections: [
+        {
+          name: 'base',
+          label: 'Base',
+          folder: 'src/content/docs/de/base',
+          create: true,
+          slug: '{{slug}}',
+          fields: pageFieldsDefault
         },
-        local_backend: true,
-        media_folder: '/public/media',
-        public_folder: '/public',
-        collections: [
-          {
-            name: 'posts',
-            label: 'Posts',
-            folder: 'src/content/docs/de',
-            create: true,
-            slug: '{{slug}}',
-            fields: [
-              {
-                label: 'Title',
-                name: 'title',
-                widget: 'string'
-              },
-              {
-                label: 'Description',
-                name: 'description',
-                widget: 'string'
-              },
-              {
-                label: 'Body',
-                name: 'body',
-                widget: 'markdown'
-              }
-            ]
-          }
-        ]
-      }
-    })
+        {
+          name: 'uml',
+          label: 'UML',
+          folder: 'src/content/docs/de/uml',
+          create: true,
+          slug: '{{slug}}',
+          fields: pageFieldsDefault
+        }
+      ]
+    }
+  })
 </script>
 </body>
 </html>
