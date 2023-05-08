@@ -1,7 +1,8 @@
 export const SITE = {
   title: 'Olis Cheatsheet',
   description: 'Olis CheatSheet ist ein öffentliches Github-Repo mit deutschsprachigen Cheat Sheets zu Programmierthemen. Es bietet Entwicklern eine schnelle Referenz zu häufig verwendeten Befehlen, Konzepten und Technologien.',
-  defaultLanguage: 'de'
+  defaultLanguage: 'de',
+  siteUrl: 'https://cs.1og.de'
 } as const
 
 export const OPEN_GRAPH = {
