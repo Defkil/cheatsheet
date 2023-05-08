@@ -31,13 +31,13 @@ Record<string, Array<{ text: string, link: string, external?: boolean }>>
 export const SIDEBAR: Sidebar = {
   de: {
     Infos: [
-      { text: 'Home', link: 'de/base/home' },
+      { text: 'Home', link: 'de/base/home/' },
       { text: 'Mein Blog', link: 'https://1og.de', external: true },
       { text: 'Mein Github', link: 'https://github.com/Defkil', external: true }
     ],
     UML: [
-      { text: 'Software Übersicht', link: 'de/uml/uml-software' },
-      { text: 'Klassendiagramm', link: 'de/uml/klassendiagramm' }
+      { text: 'Software Übersicht', link: 'de/uml/uml-software/' },
+      { text: 'Klassendiagramm', link: 'de/uml/klassendiagramm/' }
     ]
   }
 }
