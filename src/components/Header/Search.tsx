@@ -10,6 +10,49 @@ import * as docSearchReact from '@docsearch/react'
 const DocSearchModal = docSearchReact.DocSearchModal ?? (docSearchReact as any).default.DocSearchModal
 const useDocSearchKeyboardEvents = docSearchReact.useDocSearchKeyboardEvents ?? (docSearchReact as any).default.useDocSearchKeyboardEvents
 
+const translations: docSearchReact.DocSearchTranslations = {
+  button: {
+    buttonText: 'Suche',
+    buttonAriaLabel: 'Suche'
+  },
+  modal: {
+    searchBox: {
+      resetButtonTitle: 'Suchanfrage löschen',
+      resetButtonAriaLabel: 'Suchanfrage löschen',
+      cancelButtonText: 'Abbrechen',
+      cancelButtonAriaLabel: 'Abbrechen'
+    },
+    startScreen: {
+      recentSearchesTitle: 'Zuletzt gesucht',
+      noRecentSearchesText: 'Keine letzten Suchen',
+      saveRecentSearchButtonTitle: 'Diese Suche speichern',
+      removeRecentSearchButtonTitle: 'Diese Suche aus dem Verlauf entfernen',
+      favoriteSearchesTitle: 'Favoriten',
+      removeFavoriteSearchButtonTitle: 'Diese Suche aus den Favoriten entfernen'
+    },
+    errorScreen: {
+      titleText: 'Ergebnisse können nicht abgerufen werden',
+      helpText: 'Möglicherweise möchten Sie Ihre Netzwerkverbindung überprüfen.'
+    },
+    footer: {
+      selectText: 'zum Auswählen',
+      selectKeyAriaLabel: 'Enter-Taste',
+      navigateText: 'zur Navigation',
+      navigateUpKeyAriaLabel: 'Pfeil nach oben',
+      navigateDownKeyAriaLabel: 'Pfeil nach unten',
+      closeText: 'zum Schließen',
+      closeKeyAriaLabel: 'Escape-Taste',
+      searchByText: 'Suche nach'
+    },
+    noResultsScreen: {
+      noResultsText: 'Keine Ergebnisse für',
+      suggestedQueryText: 'Versuchen Sie es mit der Suche nach',
+      reportMissingResultsText: 'Glauben Sie, dass diese Abfrage Ergebnisse liefern sollte?',
+      reportMissingResultsLinkText: 'Lassen Sie es uns wissen.'
+    }
+  }
+}
+
 export default function Search (): JSX.Element {
   const [isOpen, setIsOpen] = useState(false)
   const searchButtonRef = useRef<HTMLButtonElement>(null)
@@ -60,10 +103,9 @@ export default function Search (): JSX.Element {
       indexName={ALGOLIA.indexName}
       appId={ALGOLIA.appId}
       apiKey={ALGOLIA.apiKey}
+      translations={translations}
       transformItems={(items) => {
         return items.map((item) => {
-          // We transform the absolute URL into a relative URL to
-          // work better on localhost, preview URLS.
           const a = document.createElement('a')
           a.href = item.url
           const hash = a.hash === '#overview' ? '' : a.hash
