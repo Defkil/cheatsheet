@@ -87,12 +87,12 @@ export default function Search (): JSX.Element {
         />
       </svg>
 
-      <span>Search</span>
+      <span>Suche</span>
 
       <span className="search-hint">
-        <span className="sr-only">Press </span>
+        <span className="sr-only">Drück </span>
         <kbd>/</kbd>
-        <span className="sr-only"> to search</span>
+        <span className="sr-only"> zum suchen</span>
       </span>
     </button>
 
