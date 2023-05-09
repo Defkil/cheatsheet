@@ -1,15 +1,13 @@
-import { defineConfig } from 'astro/config';
-import preact from '@astrojs/preact';
-import react from '@astrojs/react';
+import { defineConfig } from 'astro/config'
+import preact from '@astrojs/preact'
+import react from '@astrojs/react'
+import compress from 'astro-compress'
+import lazyLoadPlugin from 'rehype-plugin-image-native-lazy-loading'
 
-import compress from "astro-compress";
-
-// https://astro.build/config
 export default defineConfig({
-  integrations: [
-  // Enable Preact to support Preact JSX components.
-  preact(),
-  // Enable React for the Algolia search component.
-  react(), compress()],
-  site: `https://astro.build`
-});
+  integrations: [preact(), react(), compress()],
+  site: `https://astro.build`,
+  markdown: {
+    rehypePlugins: [lazyLoadPlugin]
+  }
+})

@@ -23,7 +23,8 @@
     "astro-compress": "^1.1.42",
     "preact": "^10.13.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rehype-plugin-image-native-lazy-loading": "^1.2.0"
   },
   "devDependencies": {
     "@types/html-escaper": "^3.0.0",
