@@ -8,7 +8,7 @@ Es gibt zwei Dokumente, die bei der Planung und Durchführung eines IT-Projekts 
 
 
 
-# Agilität und Struktur vereint: Lasten- und Pflichtenhefte in der agilen Entwicklung
+## Agilität und Struktur vereint: Lasten- und Pflichtenhefte in der agilen Entwicklung
 
 Die agile Entwicklung hat die Landschaft des Projektmanagements verändert, aber das heißt nicht, dass traditionelle Werkzeuge wie das Lastenheft und Pflichtenheft überflüssig geworden sind. Im agilen Umfeld fungieren sie als dynamische Nachschlagewerke, die stetig angepasst und aktualisiert werden. Jeder Sprint, jede Überarbeitung ist eine Gelegenheit, diese Dokumente zu prüfen und zu aktualisieren. So bleiben sie relevant und bilden eine konstante, anpassungsfähige Referenz für das gesamte Team.
 
@@ -16,61 +16,61 @@ Die agile Entwicklung hat die Landschaft des Projektmanagements verändert, aber
 
 
 
-# Lastenheft
+## Lastenheft
 
 Das Lastenheft ist ein entscheidendes Dokument, das alle Anforderungen des Kunden an das Produkt zusammenfasst. Es definiert die Aufgaben und den Zweck ihrer Lösungen, indem es genau beschreibt, was gemacht werden soll und wofür. Im Kontext der agilen Entwicklung wird diese Rolle oft von User Stories übernommen. Diese dynamischen "Mini-Lastenhefte" entwickeln sich ständig weiter und passen sich den veränderten Bedingungen des Projekts an.
 
 Mit dieser Übersicht über das Lastenheft sind wir nun bereit, seine einzelnen Abschnitte genauer zu betrachten. Jeder Abschnitt trägt auf seine eigene Art zur Gesamtstruktur bei und gibt uns ein umfassendes Bild vom Projekt.
 
-## Ausgangssituation
+### Ausgangssituation
 
-## Zielsetzung
+### Zielsetzung
 
-## Produkteinsatz
+### Produkteinsatz
 
-## Funktionale Anforderungen
+### Funktionale Anforderungen
 
-## Nichtfunktionale Anforderungen
+### Nichtfunktionale Anforderungen
 
-## Lieferumfang
+### Lieferumfang
 
-## Projektphasen und Meilensteine
+### Projektphasen und Meilensteine
 
-## Offene Punkte
+### Offene Punkte
 
-## Abnahmekriterien und Qualitätsanforderungen
-
-
+### Abnahmekriterien und Qualitätsanforderungen
 
 
 
-# Pflichtenheft
 
-## Zielbestimmung
 
-## Produkteinsatz
+## Pflichtenheft
 
-## Produktübersicht
+### Zielbestimmung
 
-## Produktfunktionen
+### Produkteinsatz
 
-## Produktdaten
+### Produktübersicht
 
-## Produktleistungen
+### Produktfunktionen
 
-## Qualitätsanforderungen
+### Produktdaten
 
-## Benutzeroberfläche
+### Produktleistungen
 
-## Nichtfunktionale Anforderungen
+### Qualitätsanforderungen
 
-## Technische Produktumgebung
+### Benutzeroberfläche
 
-## Spezielle Anforderungen an die Entwicklungsumgebung
+### Nichtfunktionale Anforderungen
 
-## Gliederung in Teilprodukte (Release-Planung)
+### Technische Produktumgebung
 
-## Ergänzungen
+### Spezielle Anforderungen an die Entwicklungsumgebung
+
+### Gliederung in Teilprodukte (Release-Planung)
+
+### Ergänzungen
 
 
 
