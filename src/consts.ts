@@ -38,6 +38,9 @@ export const SIDEBAR: Sidebar = {
     UML: [
       { text: 'Software Übersicht', link: 'de/uml/uml-software/' },
       { text: 'Klassendiagramm', link: 'de/uml/klassendiagramm/' }
+    ],
+    'Projekt Management': [
+      { text: 'Lasten und Pflichtenheft', link: 'de/pm/lastenheft-und-pflichtenheft/' }
     ]
   }
 }
