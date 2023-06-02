@@ -5,14 +5,15 @@ import ThemeToggleButton from './ThemeToggleButton'
 
 type Props = {
   headings: MarkdownHeading[];
+  title: string;
 };
 
-const { headings } = Astro.props;
+const { headings, title } = Astro.props
 ---
 
 <nav class="sidebar-nav" aria-labelledby="grid-right">
   <div class="sidebar-nav-inner">
-    <TableOfContents client:media="(min-width: 50em)" headings={headings}/>
+    <TableOfContents title={title} client:media="(min-width: 50em)" headings={headings}/>
     <div style="margin-top: 26px;">
       <ThemeToggleButton client:visible/>
     </div>

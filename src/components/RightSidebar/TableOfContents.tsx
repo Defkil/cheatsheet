@@ -8,8 +8,9 @@ interface ItemOffsets {
   topOffset: number
 }
 
-const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
-  headings = []
+const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[], title: string }> = ({
+  headings = [],
+  title
 }) => {
   const toc = useRef<HTMLUListElement>()
   const onThisPageID = 'on-this-page-heading'
@@ -74,6 +75,11 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
       </h2>
 
       <ul ref={toc as any}>
+        <li className={`header-link depth-1 ${currentID === 'overview' ? 'current-header-link' : ''}`.trim()}>
+          <a href="#overview" onClick={onLinkClick}>
+            {title}
+          </a>
+        </li>
         {headings
           .filter(({ depth }) => depth > 1 && depth < 4)
           .map((heading) => (<li

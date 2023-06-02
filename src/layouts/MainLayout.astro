@@ -127,7 +127,7 @@ const currentFile = `src/content/docs${currentPage.replace(/\/$/, '')}.md`;
     </PageContent>
   </div>
   <aside id="grid-right" class="grid-sidebar" title="Table of Contents">
-    <RightSidebar headings={headings}/>
+    <RightSidebar title={data.title} headings={headings}/>
   </aside>
 </main>
 <Footer path={currentFile}/>
