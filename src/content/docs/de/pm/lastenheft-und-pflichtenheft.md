@@ -23,23 +23,31 @@ Das Lastenheft ist ein entscheidendes Dokument, das alle Anforderungen des Kunde
 Mit dieser Übersicht über das Lastenheft sind wir nun bereit, seine einzelnen Abschnitte genauer zu betrachten. Jeder Abschnitt trägt auf seine eigene Art zur Gesamtstruktur bei und gibt uns ein umfassendes Bild vom Projekt.
 
 ### Ausgangssituation
+Die Ausgangssituation für das Projekt stellt die Initialzündung für die Projektidee dar. Es mag ein konkretes Problem aufgetreten sein, das eine Lösung erfordert. Vielleicht wurde mit ähnlichen Herausforderungen in der Vergangenheit auf bestimmte Weise umgegangen, doch diese Ansätze erwiesen sich als ineffizient oder nicht länger tragbar. Der Handlungsbedarf kann sich aus dem Wunsch nach verbesserten Abläufen, der Optimierung von Ressourcen oder der Umsetzung neuer Strategien ergeben. Jedes Projekt muss zudem in den Kontext einer langfristigen Strategie eingebettet sein, um den größtmöglichen Nutzen zu erzielen und sich nahtlos in bestehende oder geplante Aktivitäten einzufügen. In diesem Sinne beleuchtet die Ausgangssituation die Ursprünge des Projekts und legt den Grundstein für seine weitere Entwicklung.
 
 ### Zielsetzung
+Die Zielsetzung ist eine klare Darstellung des gewünschten Endprodukts und dient als Maßstab für den Erfolg des Projekts. Sie definiert die Kriterien und Messverfahren zur Bewertung des Projekterfolgs. Sie legt auch die Voraussetzungen dar, die erfüllt sein müssen, um die Projektziele zu erreichen. Des Weiteren legt sie wichtige Termine und Meilensteine fest. In diesem Sinne ist die Zielsetzung das Herzstück der Projektplanung, das den Weg zum Erfolg weist.
 
 ### Produkteinsatz
+Der Produkteinsatz definiert, unter welchen Bedingungen das Endprodukt funktionieren soll und wer die Zielbenutzer sind. Zum Beispiel könnte ein neues Content-Management-System (CMS) in einer Umgebung mit hohem Datenaufkommen eingesetzt werden und primär von Redakteuren und Content-Produzenten genutzt werden.
 
 ### Funktionale Anforderungen
+Funktionale Anforderungen umfassen alle notwendigen Funktionen, die das Produkt bieten soll. Sie beschreiben, was das Produkt in der Lage sein sollte zu tun oder zu leisten. Zum Beispiel könnte eine E-Commerce-Website die Möglichkeit zur Produktsuche, den Warenkorb und den Checkout-Prozess als funktionale Anforderungen haben.
 
 ### Nichtfunktionale Anforderungen
+Die nichtfunktionalen Anforderungen definieren Attribute und Einschränkungen, die das System haben sollte. Sie könnten die Skalierbarkeit und Erweiterbarkeit des Produkts betreffen, die Fähigkeit, Änderungen zu verwalten, die Erfüllung bestimmter Verfügbarkeitsanforderungen, auch unter Lastspitzen, und die Erwartungen an Wartungsintervalle. Auch die Zuverlässigkeit und Toleranz gegenüber Fehlern oder Ausfällen sind wichtige Aspekte. Darüber hinaus legen sie die Anforderungen an die Benutzerfreundlichkeit und Barrierefreiheit (a11y) fest.
 
 ### Lieferumfang
+Der Lieferumfang legt fest, was das Produkt beinhaltet und in welcher Form es bereitgestellt wird. Es könnte Software, Handbücher, Schulungen und andere Elemente umfassen. Des Weiteren definiert er, welche Komponenten oder Leistungen von externen Anbietern geliefert werden.
 
 ### Projektphasen und Meilensteine
+Die Projektphasen und Meilensteine geben den Ablauf und das Tempo des Projekts vor. Sie definieren die Hauptabschnitte des Projekts und legen fest, welche konkreten (gemäß den SMART-Kriterien) Lieferergebnisse bei Erreichen der einzelnen Meilensteine erwartet werden.
 
 ### Offene Punkte
+Im Bereich "Offene Punkte" werden alle Unklarheiten oder Punkte aufgeführt, die weiterer Klärung bedürfen. Hierbei wird festgelegt, wer für die Klärung dieser Punkte zuständig ist und wie Entscheidungsprozesse im Projekt ablaufen. Auch die Prozeduren für Änderungen am Lastenheft werden hier definiert: Wer darf Änderungen einbringen, wer muss sie genehmigen und wer hat gegebenenfalls ein Vetorecht.
 
 ### Abnahmekriterien und Qualitätsanforderungen
-
+In diesem Abschnitt werden die Abnahmekriterien und Qualitätsanforderungen festgelegt. Sie dienen als Grundlage zur Beurteilung des Projektfortschritts und zur Entlastung der Projektleitung an den Meilensteinen und am Ende des Projekts. Sie legen außerdem fest, welche Anforderungen an die Qualität gestellt werden und welche Qualitätsmanagementsysteme und dazugehörigen Unterlagen relevant sind.
 
 
 
