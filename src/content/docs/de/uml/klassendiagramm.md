@@ -2,8 +2,6 @@
 title: Klassendiagramm
 description: Klassendiagramm
 ---
-## Einleitung
-
 Klassendiagramme sind Diagramme in der Softwareentwicklung, die die statischen Bestandteile und Attribute von einem System sowie deren Beziehungen untereinander darstellen. Sie sind wichtig, um das System besser zu verstehen und zu kommunizieren. Klassendiagramme zeigen hauptsächlich statische Aspekte des Systems und werden verwendet, um Klassen, Interfaces, Attribute und Methoden darzustellen. Dynamische Aspekte werden durch andere Diagrammtypen dargestellt.
 
 ## Analysephase: Kundenbedürfnisse
