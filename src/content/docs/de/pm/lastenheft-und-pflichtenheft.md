@@ -49,7 +49,7 @@ Dieser Abschnitt des Lastenhefts befasst sich mit der Identifizierung und Bewert
 Die Projektphasen und Meilensteine geben den Ablauf und das Tempo des Projekts vor. Sie definieren die Hauptabschnitte des Projekts und legen fest, welche konkreten (gemäß den SMART-Kriterien) Lieferergebnisse bei Erreichen der einzelnen Meilensteine erwartet werden.
 
 ### Offene Punkte
-Im Bereich "Offene Punkte" werden alle Unklarheiten oder Punkte aufgeführt, die weiterer Klärung bedürfen. Hierbei wird festgelegt, wer für die Klärung dieser Punkte zuständig ist und wie Entscheidungsprozesse im Projekt ablaufen. Auch die Prozeduren für Änderungen am Lastenheft werden hier definiert: Wer darf Änderungen einbringen, wer muss sie genehmigen und wer hat gegebenenfalls ein Vetorecht.
+Im Bereich Offene Punkte werden alle Unklarheiten oder Punkte aufgeführt, die weiterer Klärung bedürfen. Hierbei wird festgelegt, wer für die Klärung dieser Punkte zuständig ist und wie Entscheidungsprozesse im Projekt ablaufen. Auch die Prozeduren für Änderungen am Lastenheft werden hier definiert: Wer darf Änderungen einbringen, wer muss sie genehmigen und wer hat gegebenenfalls ein Vetorecht.
 
 ### Abnahmekriterien und Qualitätsanforderungen
 In diesem Abschnitt werden die Abnahmekriterien und Qualitätsanforderungen festgelegt. Sie dienen als Grundlage zur Beurteilung des Projektfortschritts und zur Entlastung der Projektleitung an den Meilensteinen und am Ende des Projekts. Sie legen außerdem fest, welche Anforderungen an die Qualität gestellt werden und welche Qualitätsmanagementsysteme und dazugehörigen Unterlagen relevant sind.
@@ -58,33 +58,46 @@ In diesem Abschnitt werden die Abnahmekriterien und Qualitätsanforderungen fest
 
 
 ## Pflichtenheft
+Das Pflichtenheft ist ein detaillierter Plan zur Umsetzung des Projekts auf der Grundlage des Lastenhefts. Es legt fest, wie die Anforderungen des Auftraggebers erfüllt werden, indem es konkrete Lösungsansätze und Realisierungsanforderungen darlegt. Es dient als "Blaupause" für die Umsetzung des Projekts und beinhaltet alle spezifischen Details, wie und womit die Projektziele erreicht werden sollen. Das zugehörige Lastenheft ist im Anhang beigefügt.
 
 ### Zielbestimmung
+Die Zielbestimmung umfasst drei wesentliche Elemente: Musskriterien, Wunschkriterien und Abgrenzungskriterien. Musskriterien sind unverhandelbare Anforderungen, die unbedingt erfüllt werden müssen. Wunschkriterien sind wünschenswerte, aber nicht unbedingt notwendige Merkmale des Endprodukts. Die Abgrenzungskriterien legen explizit fest, was das Projekt nicht erreichen soll, um den Umfang des Projekts zu begrenzen und Fehlinterpretationen zu vermeiden.
 
 ### Produkteinsatz
+Im Produkteinsatzabschnitt wird der vorgesehene Anwendungsbereich des Produkts beschrieben. Des Weiteren werden die Betriebsbedingungen definiert, unter denen das Produkt performen soll. Zudem wird die Zielgruppe erläutert, die von dem Produkt profitieren soll, und die notwendigen Qualifikationen der Benutzergruppen, die das Produkt verwenden werden.
 
 ### Produktübersicht
+In der Produktübersicht wird ein Überblick über die wesentlichen Funktionen des Produkts gegeben. Es werden alle Kernfunktionen aufgeführt und erläutert, wie diese zusammenarbeiten, um das gewünschte Ergebnis zu erzielen. Des Weiteren wird ein Verständnis der involvierten Geschäftsprozesse und der beteiligten Akteure geboten, um zu verdeutlichen, wie das Produkt in das größere Ökosystem des Unternehmens passt.
 
 ### Produktfunktionen
+Die Produktfunktionen sind eine konkrete und detaillierte Darstellung der Funktionen, die im Lastenheft aufgeführt sind. Jede Funktion wird genau beschrieben, wobei Querverweise auf die entsprechenden Abschnitte im Lastenheft verwendet werden, um die Herkunft jeder Funktion klar darzustellen. Zusätzlich wird dargelegt, welche Akteure an welchen Funktionen beteiligt sind, um eine klare Zuordnung von Verantwortlichkeiten zu ermöglichen.
 
 ### Produktdaten
+Im Abschnitt Produktdaten wird eine ausführliche Darstellung der persistenten Daten, die im Produkt verwendet werden, gegeben. Diese Daten sind eine detaillierte Version der in der Benutzerübersicht aufgeführten Daten und werden beispielsweise in Form eines logischen Klassendiagramms präsentiert.
 
 ### Produktleistungen
+Produktleistungen befasst sich mit den spezifischen Leistungsanforderungen der einzelnen Funktionen und Daten, einschließlich der Anforderungen bezüglich Zeit, Genauigkeit und Mengen. Hier finden sich auch Hinweise und Anmerkungen zur Umsetzbarkeit dieser Anforderungen.
 
 ### Qualitätsanforderungen
+Die Anforderungen an die Benutzeroberfläche werden in diesem Abschnitt festgelegt. Dies umfasst das Layout, die Struktur der Dialoge zwischen System und Benutzer und die Zugriffsrechte, die eine wichtige Rolle in Bezug auf die Benutzerfreundlichkeit und Sicherheit spielen.
 
 ### Benutzeroberfläche
+In diesem Abschnitt werden die grundlegenden Anforderungen an das Layout, die Dialogstruktur und die Zugriffsrechte der Benutzeroberfläche des Produkts dargelegt. Diese Aspekte sind entscheidend für die Gestaltung einer intuitiven, effizienten und sicheren Benutzererfahrung.
 
 ### Nichtfunktionale Anforderungen
+Die nichtfunktionalen Anforderungen sind Merkmale, die das Gesamtsystem beeinflussen, aber nicht direkt mit den spezifischen Funktionen des Produkts zusammenhängen. Sie können Aspekte wie Systemleistung, Sicherheit, Skalierbarkeit, Compliance, Benutzerfreundlichkeit und andere Qualitätsattribute umfassen.
 
 ### Technische Produktumgebung
+Die technische Produktumgebung umfasst alle notwendigen Aspekte der Software, Hardware und Organisationsstruktur, die für die Verwendung und Integration des Produkts erforderlich sind. Dies schließt die Hardware-Anforderungen ein, die erforderliche Software und Betriebssysteme sowie die organisatorischen Aspekte, die für den Betrieb des Produkts relevant sind. Darüber hinaus beinhaltet dieser Abschnitt die Beschreibung der Produktschnittstellen für die Integration in die bestehende Infrastruktur.
 
 ### Spezielle Anforderungen an die Entwicklungsumgebung
+In diesem Abschnitt wird die Entwicklungsumgebung detailliert beschrieben, einschließlich spezifischer Anforderungen an Tools, Frameworks und Plattformen, die für die Entwicklung des Produkts erforderlich sind. Es können auch spezifische Versionen von Software und Bibliotheken angegeben werden, die für die Entwicklung und den Betrieb des Produkts benötigt werden.
 
 ### Gliederung in Teilprodukte (Release-Planung)
+Die Gliederung in Teilprodukte gibt eine Übersicht über die geplanten Produktversionen und die in diesen Versionen enthaltenen Funktionen. Sie beschreibt, welche Funktionen in welchem Release implementiert werden und liefert somit einen detaillierten Plan für die gesamte Produktentwicklung.
 
 ### Ergänzungen
+Der Bereich "Ergänzungen" enthält alle zusätzlichen Anmerkungen und Vorgaben des Auftraggebers. Dies könnte spezifische Präferenzen für Hersteller oder Dienstleister, relevante Normen und Vorschriften sowie Informationen zu relevanten Patenten und Lizenzen einschließen.
 
-
-
-Mehr kommt bald!
+### Testcases
+Unter "Testfälle" werden die spezifischen Testfälle definiert, die für die Überprüfung der Funktionen, Eigenschaften und Qualitätsmerkmale des Produkts entwickelt werden. Dabei ist es wichtig, dass die Testfälle einen umfassenden Testbereich abdecken, ähnlich den End-to-End-Tests (E2E-Tests).
