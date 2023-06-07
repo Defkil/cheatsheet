@@ -10,9 +10,6 @@ Es gibt zwei Dokumente, die bei der Planung und Durchführung eines IT-Projekts 
 ## Agilität und Struktur vereint: Lasten- und Pflichtenhefte in der agilen Entwicklung
 Die agile Entwicklung hat die Landschaft des Projektmanagements verändert, aber das heißt nicht, dass traditionelle Werkzeuge wie das Lastenheft und Pflichtenheft überflüssig geworden sind. Im agilen Umfeld fungieren sie als dynamische Nachschlagewerke, die stetig angepasst und aktualisiert werden. Jeder Sprint, jede Überarbeitung ist eine Gelegenheit, diese Dokumente zu prüfen und zu aktualisieren. So bleiben sie relevant und bilden eine konstante, anpassungsfähige Referenz für das gesamte Team.
 
-
-
-
 ## Lastenheft
 Das Lastenheft ist ein entscheidendes Dokument, das alle Anforderungen des Kunden an das Produkt zusammenfasst. Es definiert die Aufgaben und den Zweck ihrer Lösungen, indem es genau beschreibt, was gemacht werden soll und wofür. Im Kontext der agilen Entwicklung wird diese Rolle oft von User Stories übernommen. Diese dynamischen "Mini-Lastenhefte" entwickeln sich ständig weiter und passen sich den veränderten Bedingungen des Projekts an.
 
@@ -54,8 +51,7 @@ Im Bereich Offene Punkte werden alle Unklarheiten oder Punkte aufgeführt, die w
 ### Abnahmekriterien und Qualitätsanforderungen
 In diesem Abschnitt werden die Abnahmekriterien und Qualitätsanforderungen festgelegt. Sie dienen als Grundlage zur Beurteilung des Projektfortschritts und zur Entlastung der Projektleitung an den Meilensteinen und am Ende des Projekts. Sie legen außerdem fest, welche Anforderungen an die Qualität gestellt werden und welche Qualitätsmanagementsysteme und dazugehörigen Unterlagen relevant sind.
 
-
-
+---
 
 ## Pflichtenheft
 Das Pflichtenheft ist ein detaillierter Plan zur Umsetzung des Projekts auf der Grundlage des Lastenhefts. Es legt fest, wie die Anforderungen des Auftraggebers erfüllt werden, indem es konkrete Lösungsansätze und Realisierungsanforderungen darlegt. Es dient als "Blaupause" für die Umsetzung des Projekts und beinhaltet alle spezifischen Details, wie und womit die Projektziele erreicht werden sollen. Das zugehörige Lastenheft ist im Anhang beigefügt.
