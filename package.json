@@ -11,7 +11,7 @@
     "api-gateway": "npx @staticcms/proxy-server"
   },
   "dependencies": {
-    "@algolia/client-search": "^4.18.0",
+    "@algolia/client-search": "^4.19.0",
     "@astrojs/preact": "^2.2.1",
     "@astrojs/react": "^2.2.1",
     "@docsearch/css": "^3.5.1",
@@ -19,7 +19,7 @@
     "@types/node": "^18.16.19",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "astro": "^2.8.3",
+    "astro": "^2.8.4",
     "astro-compress": "^1.1.49",
     "preact": "^10.16.0",
     "react": "^18.2.0",
