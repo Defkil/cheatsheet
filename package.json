@@ -11,7 +11,7 @@
     "api-gateway": "npx @staticcms/proxy-server"
   },
   "dependencies": {
-    "@algolia/client-search": "^4.19.1",
+    "@algolia/client-search": "^4.20.0",
     "@astrojs/preact": "^2.2.2",
     "@astrojs/react": "^2.3.2",
     "@docsearch/css": "^3.5.2",
