@@ -13,7 +13,7 @@ dependencies:
     version: 2.2.2(preact@10.18.1)
   '@astrojs/react':
     specifier: ^2.3.2
-    version: 2.3.2(@types/react-dom@18.2.10)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.3.2(@types/react-dom@18.2.11)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)
   '@docsearch/css':
     specifier: ^3.5.2
     version: 3.5.2
@@ -21,17 +21,17 @@ dependencies:
     specifier: ^3.5.2
     version: 3.5.2(@algolia/client-search@4.20.0)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.8.3)
   '@types/node':
-    specifier: ^18.18.3
-    version: 18.18.3
+    specifier: ^18.18.4
+    version: 18.18.4
   '@types/react':
     specifier: ^18.2.25
     version: 18.2.25
   '@types/react-dom':
-    specifier: ^18.2.10
-    version: 18.2.10
+    specifier: ^18.2.11
+    version: 18.2.11
   astro:
     specifier: ^2.10.15
-    version: 2.10.15(@types/node@18.18.3)
+    version: 2.10.15(@types/node@18.18.4)
   astro-compress:
     specifier: ^2.0.15
     version: 2.0.15
@@ -267,7 +267,7 @@ packages:
       astro: ^2.5.0
     dependencies:
       '@astrojs/prism': 2.1.2
-      astro: 2.10.15(@types/node@18.18.3)
+      astro: 2.10.15(@types/node@18.18.4)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -307,7 +307,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@2.3.2(@types/react-dom@18.2.10)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0):
+  /@astrojs/react@2.3.2(@types/react-dom@18.2.11)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-hGOnvLA7xA0rry0tr0g0LiO7bsYK9yyrs0k+OVakVkXsWgBVgqXI2a2KBVc/W+vOBB9mFXMG4EnrqdMPcttT5Q==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -319,7 +319,7 @@ packages:
       '@babel/core': 7.23.0
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.0)
       '@types/react': 18.2.25
-      '@types/react-dom': 18.2.10
+      '@types/react-dom': 18.2.11
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       ultrahtml: 1.5.2
@@ -1257,8 +1257,8 @@ packages:
       '@types/unist': 2.0.8
     dev: false
 
-  /@types/node@18.18.3:
-    resolution: {integrity: sha512-0OVfGupTl3NBFr8+iXpfZ8NR7jfFO+P1Q+IO/q0wbo02wYkP5gy36phojeYWpLQ6WAMjl+VfmqUk2YbUfp0irA==}
+  /@types/node@18.18.4:
+    resolution: {integrity: sha512-t3rNFBgJRugIhackit2mVcLfF6IRc0JE4oeizPQL8Zrm8n2WY/0wOdpOPhdtG0V9Q2TlW/axbF1MJ6z+Yj/kKQ==}
     dev: false
 
   /@types/node@20.5.7:
@@ -1273,8 +1273,8 @@ packages:
     resolution: {integrity: sha512-kMpQpfZKSCBqltAJwskgePRaYRFukDkm1oItcAbC3gNELR20XIBcN9VRgg4+m8DKsTfkWeA4m4Imp4DDuWy7FQ==}
     dev: false
 
-  /@types/react-dom@18.2.10:
-    resolution: {integrity: sha512-5VEC5RgXIk1HHdyN1pHlg0cOqnxHzvPGpMMyGAP5qSaDRmyZNDaQ0kkVAkK6NYlDhP6YBID3llaXlmAS/mdgCA==}
+  /@types/react-dom@18.2.11:
+    resolution: {integrity: sha512-zq6Dy0EiCuF9pWFW6I6k6W2LdpUixLE4P6XjXU1QHLfak3GPACQfLwEuHzY5pOYa4hzj1d0GxX/P141aFjZsyg==}
     dependencies:
       '@types/react': 18.2.25
     dev: false
@@ -1656,7 +1656,7 @@ packages:
       - supports-color
     dev: true
 
-  /astro@2.10.15(@types/node@18.18.3):
+  /astro@2.10.15(@types/node@18.18.4):
     resolution: {integrity: sha512-7jgkCZexxOX541g2kKHGOcDDUVKYc+sGi87GtLOkbWwTsKqEIp9GU0o7DpKe1rhItm9VVEiHz4uxvMh3wGmJdA==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -1719,7 +1719,7 @@ packages:
       typescript: 5.2.2
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.4.11(@types/node@18.18.3)
+      vite: 4.4.11(@types/node@18.18.4)
       vitefu: 0.2.4(vite@4.4.11)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
@@ -5707,7 +5707,7 @@ packages:
       vfile-message: 3.1.4
     dev: false
 
-  /vite@4.4.11(@types/node@18.18.3):
+  /vite@4.4.11(@types/node@18.18.4):
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5735,7 +5735,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.18.3
+      '@types/node': 18.18.4
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
@@ -5751,7 +5751,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.11(@types/node@18.18.3)
+      vite: 4.4.11(@types/node@18.18.4)
     dev: false
 
   /vscode-css-languageservice@6.2.9:
