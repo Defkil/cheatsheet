@@ -39,6 +39,9 @@ export const SIDEBAR: Sidebar = {
       { text: 'Software Übersicht', link: 'de/uml/uml-software/' },
       { text: 'Klassendiagramm', link: 'de/uml/klassendiagramm/' }
     ],
+    'Agile Entwicklung': [
+      { text: 'Einstieg', link: 'de/agile/einstieg/' }
+    ],
     'Projekt Management': [
       { text: 'Lasten und Pflichtenheft', link: 'de/pm/lastenheft-und-pflichtenheft/' }
     ]
