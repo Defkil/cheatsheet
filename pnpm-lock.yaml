@@ -13,22 +13,22 @@ dependencies:
     version: 2.2.2(preact@10.18.1)
   '@astrojs/react':
     specifier: ^2.3.2
-    version: 2.3.2(@types/react-dom@18.2.11)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.3.2(@types/react-dom@18.2.12)(@types/react@18.2.27)(react-dom@18.2.0)(react@18.2.0)
   '@docsearch/css':
     specifier: ^3.5.2
     version: 3.5.2
   '@docsearch/react':
     specifier: ^3.5.2
-    version: 3.5.2(@algolia/client-search@4.20.0)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.8.3)
+    version: 3.5.2(@algolia/client-search@4.20.0)(@types/react@18.2.27)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.8.3)
   '@types/node':
     specifier: ^18.18.4
     version: 18.18.4
   '@types/react':
-    specifier: ^18.2.25
-    version: 18.2.25
+    specifier: ^18.2.27
+    version: 18.2.27
   '@types/react-dom':
-    specifier: ^18.2.11
-    version: 18.2.11
+    specifier: ^18.2.12
+    version: 18.2.12
   astro:
     specifier: ^2.10.15
     version: 2.10.15(@types/node@18.18.4)
@@ -252,7 +252,7 @@ packages:
       events: 3.3.0
       prettier: 2.8.8
       prettier-plugin-astro: 0.9.1
-      vscode-css-languageservice: 6.2.9
+      vscode-css-languageservice: 6.2.10
       vscode-html-languageservice: 5.1.0
       vscode-languageserver: 8.1.0
       vscode-languageserver-protocol: 3.17.5
@@ -307,7 +307,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@2.3.2(@types/react-dom@18.2.11)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0):
+  /@astrojs/react@2.3.2(@types/react-dom@18.2.12)(@types/react@18.2.27)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-hGOnvLA7xA0rry0tr0g0LiO7bsYK9yyrs0k+OVakVkXsWgBVgqXI2a2KBVc/W+vOBB9mFXMG4EnrqdMPcttT5Q==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -318,8 +318,8 @@ packages:
     dependencies:
       '@babel/core': 7.23.0
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.0)
-      '@types/react': 18.2.25
-      '@types/react-dom': 18.2.11
+      '@types/react': 18.2.27
+      '@types/react-dom': 18.2.12
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       ultrahtml: 1.5.2
@@ -580,7 +580,7 @@ packages:
     resolution: {integrity: sha512-SPiDHaWKQZpwR2siD0KQUwlStvIAnEyK6tAE2h2Wuoq8ue9skzhlyVQ1ddzOxX6khULnAALDiR/isSF3bnuciA==}
     dev: false
 
-  /@docsearch/react@3.5.2(@algolia/client-search@4.20.0)(@types/react@18.2.25)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.8.3):
+  /@docsearch/react@3.5.2(@algolia/client-search@4.20.0)(@types/react@18.2.27)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.8.3):
     resolution: {integrity: sha512-9Ahcrs5z2jq/DcAvYtvlqEBHImbm4YJI8M9y0x6Tqg598P40HTEkX7hsMcIuThI+hTFxRGZ9hll0Wygm2yEjng==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
@@ -600,7 +600,7 @@ packages:
       '@algolia/autocomplete-core': 1.9.3(@algolia/client-search@4.20.0)(algoliasearch@4.20.0)(search-insights@2.8.3)
       '@algolia/autocomplete-preset-algolia': 1.9.3(@algolia/client-search@4.20.0)(algoliasearch@4.20.0)
       '@docsearch/css': 3.5.2
-      '@types/react': 18.2.25
+      '@types/react': 18.2.27
       algoliasearch: 4.20.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1273,14 +1273,14 @@ packages:
     resolution: {integrity: sha512-kMpQpfZKSCBqltAJwskgePRaYRFukDkm1oItcAbC3gNELR20XIBcN9VRgg4+m8DKsTfkWeA4m4Imp4DDuWy7FQ==}
     dev: false
 
-  /@types/react-dom@18.2.11:
-    resolution: {integrity: sha512-zq6Dy0EiCuF9pWFW6I6k6W2LdpUixLE4P6XjXU1QHLfak3GPACQfLwEuHzY5pOYa4hzj1d0GxX/P141aFjZsyg==}
+  /@types/react-dom@18.2.12:
+    resolution: {integrity: sha512-QWZuiA/7J/hPIGocXreCRbx7wyoeet9ooxfbSA+zbIWqyQEE7GMtRn4A37BdYyksnN+/NDnWgfxZH9UVGDw1hg==}
     dependencies:
-      '@types/react': 18.2.25
+      '@types/react': 18.2.27
     dev: false
 
-  /@types/react@18.2.25:
-    resolution: {integrity: sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==}
+  /@types/react@18.2.27:
+    resolution: {integrity: sha512-Wfv7B7FZiR2r3MIqbAlXoY1+tXm4bOqfz4oRr+nyXdBqapDBZ0l/IGcSlAfvxIHEEJjkPU0MYAc/BlFPOcrgLw==}
     dependencies:
       '@types/prop-types': 15.7.8
       '@types/scheduler': 0.16.4
@@ -1860,7 +1860,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001546
-      electron-to-chromium: 1.4.544
+      electron-to-chromium: 1.4.545
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: false
@@ -2318,8 +2318,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.544:
-    resolution: {integrity: sha512-54z7squS1FyFRSUqq/knOFSptjjogLZXbKcYk3B0qkE1KZzvqASwRZnY2KzZQJqIYLVD38XZeoiMRflYSwyO4w==}
+  /electron-to-chromium@1.4.545:
+    resolution: {integrity: sha512-G1HKumUw+y5yxMjewGfKz0XrqG6O+Tb4zrlC/Vs1+9riRXBuFlO0hOEXP3xeI+ltlJkbVUuLkYdmjHYH6Jkiow==}
     dev: false
 
   /emmet@2.4.6:
@@ -5754,12 +5754,12 @@ packages:
       vite: 4.4.11(@types/node@18.18.4)
     dev: false
 
-  /vscode-css-languageservice@6.2.9:
-    resolution: {integrity: sha512-9MsOvAi+VycKomQ7KEq4o/hLtjHHrtRLLl8lM9nMcH8cxfNI7/6jVXmsV/7pdbDWu9L3DZhsspN1eMXZwiOymw==}
+  /vscode-css-languageservice@6.2.10:
+    resolution: {integrity: sha512-sYUZPku4mQ06AWGCbMyjv2tdR6juBW6hTbVPFwbJvNVzdtEfBioQOgkdXg7yMJNWnXkvWSU1FL2kb4Vxu5Cdyw==}
     dependencies:
       '@vscode/l10n': 0.0.16
       vscode-languageserver-textdocument: 1.0.11
-      vscode-languageserver-types: 3.17.3
+      vscode-languageserver-types: 3.17.5
       vscode-uri: 3.0.8
     dev: false
 
