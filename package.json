@@ -21,7 +21,7 @@
     "@types/react-dom": "^18.2.15",
     "astro": "^2.10.15",
     "astro-compress": "^2.2.3",
-    "preact": "^10.19.1",
+    "preact": "^10.19.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rehype-plugin-image-native-lazy-loading": "^1.2.0"
