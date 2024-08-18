@@ -11,10 +11,11 @@ export default defineConfig({
 				github: 'https://github.com/Defkil',
 				linkedin: 'https://www.linkedin.com/in/oliver-gr%C3%BCttner/'
 			},
-			defaultLocale: 'en',
+			defaultLocale: 'root',
 			locales: {
-				en: {
+				root: {
 					label: 'English',
+					lang: 'en',
 				},
 				de: {
 					label: 'Deutsch',
