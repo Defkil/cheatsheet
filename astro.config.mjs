@@ -3,11 +3,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://olis.tech',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Olis.tech',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Defkil',
+				linkedin: 'https://www.linkedin.com/in/oliver-gr%C3%BCttner/'
 			},
 			sidebar: [
 				{
