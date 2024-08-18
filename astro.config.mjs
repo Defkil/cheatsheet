@@ -1,5 +1,5 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from 'astro/config'
+import starlight from '@astrojs/starlight'
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,17 +11,42 @@ export default defineConfig({
 				github: 'https://github.com/Defkil',
 				linkedin: 'https://www.linkedin.com/in/oliver-gr%C3%BCttner/'
 			},
+			defaultLocale: 'en',
+			locales: {
+				en: {
+					label: 'English',
+				},
+				de: {
+					label: 'Deutsch',
+				},
+			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Agile',
+					translations: {
+						de: 'Agil',
+					},
+					autogenerate: {
+						directory: 'agile'
+					},
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Project Management',
+					translations: {
+						de: 'Projekt Management',
+					},
+					autogenerate: {
+						directory: 'pm'
+					},
+				},
+				{
+					label: 'UML Diagrams',
+					translations: {
+						de: 'UML Diagramme',
+					},
+					autogenerate: {
+						directory: 'uml'
+					},
 				},
 			],
 			customCss: [
