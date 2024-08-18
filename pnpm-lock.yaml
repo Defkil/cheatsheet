@@ -14,6 +14,9 @@ importers:
       '@astrojs/starlight':
         specifier: ^0.26.1
         version: 0.26.1(astro@4.14.2(rollup@4.21.0)(typescript@5.5.4))
+      '@fontsource-variable/roboto-flex':
+        specifier: ^5.0.16
+        version: 5.0.16
       astro:
         specifier: ^4.10.2
         version: 4.14.2(rollup@4.21.0)(typescript@5.5.4)
@@ -350,6 +353,9 @@ packages:
 
   '@expressive-code/plugin-text-markers@0.35.6':
     resolution: {integrity: sha512-/k9eWVZSCs+uEKHR++22Uu6eIbHWEciVHbIuD8frT8DlqTtHYaaiwHPncO6KFWnGDz5i/gL7oyl6XmOi/E6GVg==}
+
+  '@fontsource-variable/roboto-flex@5.0.16':
+    resolution: {integrity: sha512-aMJw0ac9M2fu78YUx5BRtdSqNqGV4cJPF6lbFpow8e0hXVH7wPwk5d0mpox1MTwvHFHRStmkYVB/SSUytmlaSw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2766,6 +2772,8 @@ snapshots:
   '@expressive-code/plugin-text-markers@0.35.6':
     dependencies:
       '@expressive-code/core': 0.35.6
+
+  '@fontsource-variable/roboto-flex@5.0.16': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:

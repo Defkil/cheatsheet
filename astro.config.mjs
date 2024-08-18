@@ -24,6 +24,10 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+			customCss: [
+				'@fontsource-variable/roboto-flex/index.css',
+				'./src/styles/fonts.css',
+			],
 		}),
 	],
 });
