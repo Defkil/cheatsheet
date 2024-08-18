@@ -20,19 +20,18 @@ importers:
       astro:
         specifier: ^4.10.2
         version: 4.14.2(rollup@4.21.0)(typescript@5.5.4)
-      sharp:
-        specifier: ^0.32.5
-        version: 0.32.6
-      typescript:
-        specifier: ^5.5.4
-        version: 5.5.4
-    devDependencies:
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
+      sharp:
+        specifier: ^0.32.5
+        version: 0.32.6
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
 
 packages:
 
