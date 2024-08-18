@@ -1,0 +1,33 @@
+---
+import type { Props } from '@astrojs/starlight/props'
+import Default from '@astrojs/starlight/components/Footer.astro'
+---
+<Default {...Astro.props}>
+  <slot/>
+</Default>
+
+<div class="footer-links">
+  {Astro.currentLocale === 'en' ? (
+      <a href="https://olis.tech/impressum/">Imprint</a>
+      <a href="https://olis.tech/datenschutzerklaerung/">Privacy Policy</a>
+  ) : (
+      <a href="https://olis.tech/impressum/">Impressum</a>
+      <a href="https://olis.tech/datenschutzerklaerung/">Datenschutzerklärung</a>
+  )}
+</div>
+<style>
+    .footer-links {
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+    }
+
+    .footer-links a {
+        color: var(--sl-color-gray-2);
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        color: var(--sl-color-white);;
+    }
+</style>

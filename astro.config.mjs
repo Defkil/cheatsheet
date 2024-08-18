@@ -50,6 +50,9 @@ export default defineConfig({
 					},
 				},
 			],
+			components: {
+				Footer: './src/components/Footer.astro',
+			},
 			customCss: [
 				'@fontsource-variable/roboto-flex/index.css',
 				'./src/styles/fonts.css',
